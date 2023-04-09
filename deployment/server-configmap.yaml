@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: server-configmap
+data:
+  PORT: "4000"
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: postgres
+  POSTGRES_HOST: postgres.default
+  POSTGRES_DB: fibonacci
+  REDIS_HOST: redis.default
+  REDIS_PORT: "6379"
